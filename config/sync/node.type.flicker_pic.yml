@@ -1,0 +1,18 @@
+uuid: 155ae1af-a48e-46b7-a330-76e9a2a01e3c
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Flicker pic'
+type: flicker_pic
+description: ''
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: true

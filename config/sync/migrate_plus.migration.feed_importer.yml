@@ -1,0 +1,83 @@
+uuid: null
+langcode: en
+status: true
+dependencies: {  }
+id: feed_importer
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: null
+label: ''
+source:
+  plugin: url
+  data_fetcher_plugin: http
+  urls: 'https://api.flickr.com/services/feeds/photos_public.gne?format=rss_200_enc'
+  data_parser_plugin: simple_xml
+  constants:
+    file_destination: 'public://feeds/images/'
+  item_selector: /rss/channel/item
+  fields:
+    -
+      name: guid
+      label: GUID
+      selector: guid
+    -
+      name: title
+      label: Title
+      selector: title
+    -
+      name: pub_date
+      label: 'Publication date'
+      selector: pubDate
+    -
+      name: link
+      label: 'Origin link'
+      selector: link
+    -
+      name: description
+      label: Description
+      selector: description
+    -
+      name: image
+      label: Image
+      selector: 'media:content/@url'
+  ids:
+    guid:
+      type: string
+process:
+  title:
+    -
+      plugin: get
+      source: title
+    -
+      plugin: callback
+      callable: trim
+    -
+      plugin: skip_on_empty
+      method: row
+  uid:
+    plugin: default_value
+    default_value: 1
+  body/value: description
+  body/format:
+    plugin: default_value
+    default_value: full_html
+  created:
+    plugin: format_date
+    from_format: 'D, d M Y H:i:s O'
+    to_format: U
+    source: pub_date
+  status:
+    plugin: default_value
+    default_value: 1
+  type:
+    plugin: default_value
+    default_value: flicker_pic
+  field_image:
+    plugin: image_import
+    source: image
+    destination: constants/file_destination
+destination:
+  plugin: 'entity:node'
+migration_dependencies: null

@@ -1,0 +1,22 @@
+uuid: bf2fb492-eae0-4b6f-83c8-6c7810cf662c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.flicker_pic
+  module:
+    - text
+id: node.flicker_pic.body
+field_name: body
+entity_type: node
+bundle: flicker_pic
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

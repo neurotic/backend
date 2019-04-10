@@ -1,0 +1,30 @@
+uuid: 9d8fe980-137a-4286-83ea-1daabbed2cc5
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.flicker_pic.body
+    - node.type.flicker_pic
+  module:
+    - text
+    - user
+id: node.flicker_pic.teaser
+targetEntityType: node
+bundle: flicker_pic
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

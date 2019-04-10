@@ -1,0 +1,18 @@
+uuid: 8ac24110-ab4e-4579-a4db-9e62622301d1
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Quiz
+type: quiz
+description: ''
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: true
