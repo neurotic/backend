@@ -1,15 +1,15 @@
-uuid: 4345aa10-44f5-4514-8b49-fdb7b52e3909
+uuid: 685c37f4-70c3-4b65-8b61-d806b4b03009
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_question
+    - field.storage.node.field_answers
     - node.type.quiz
-id: node.quiz.field_question
-field_name: field_question
+id: node.quiz.field_answers
+field_name: field_answers
 entity_type: node
 bundle: quiz
-label: Question
+label: Answers
 description: ''
 required: true
 translatable: false

@@ -4,6 +4,8 @@ status: true
 dependencies:
   config:
     - field.field.node.quiz.body
+    - field.field.node.quiz.field_answers
+    - field.field.node.quiz.field_correct
     - field.field.node.quiz.field_question
     - node.type.quiz
   module:
@@ -20,6 +22,22 @@ content:
     weight: 101
     settings: {  }
     third_party_settings: {  }
+    region: content
+  field_answers:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_correct:
+    weight: 104
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
     region: content
   field_question:
     weight: 102
