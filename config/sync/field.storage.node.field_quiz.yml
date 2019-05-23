@@ -1,0 +1,19 @@
+uuid: 8b12c8a9-9ff8-4491-a120-1694876d2d7a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_quiz
+field_name: field_quiz
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

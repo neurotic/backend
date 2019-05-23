@@ -16,23 +16,17 @@ module:
   dynamic_page_cache: 0
   editor: 0
   feed_importer: 0
-  feeds: 0
   field: 0
   field_ui: 0
   file: 0
   filter: 0
-  graphql: 0
-  graphql_core: 0
   help: 0
   history: 0
   image: 0
+  inline_entity_form: 0
   jsonapi: 0
   link: 0
   menu_ui: 0
-  migrate: 0
-  migrate_file: 0
-  migrate_plus: 0
-  migrate_tools: 0
   node: 0
   options: 0
   page_cache: 0

@@ -1,0 +1,23 @@
+uuid: 8e51b659-459c-46e9-939d-b430cab699dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_number_of_questions
+    - node.type.certification
+id: node.certification.field_number_of_questions
+field_name: field_number_of_questions
+entity_type: node
+bundle: certification
+label: 'Number of questions'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

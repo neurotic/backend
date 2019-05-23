@@ -1,0 +1,22 @@
+uuid: 0639f8e3-befb-4481-9ec9-be8537d0ec63
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.certification
+  module:
+    - text
+id: node.certification.body
+field_name: body
+entity_type: node
+bundle: certification
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

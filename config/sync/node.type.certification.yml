@@ -1,4 +1,4 @@
-uuid: 8ac24110-ab4e-4579-a4db-9e62622301d1
+uuid: fdaaf48f-a4cb-4f25-b1e2-f7d2c6b77853
 langcode: en
 status: true
 dependencies:
@@ -9,8 +9,8 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
-name: Question
-type: quiz
+name: Certification
+type: certification
 description: ''
 help: ''
 new_revision: true

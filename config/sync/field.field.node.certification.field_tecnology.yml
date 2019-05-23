@@ -1,0 +1,19 @@
+uuid: 1feac7db-7f0d-40a1-8389-d21721a0df4e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tecnology
+    - node.type.certification
+id: node.certification.field_tecnology
+field_name: field_tecnology
+entity_type: node
+bundle: certification
+label: Tecnology
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

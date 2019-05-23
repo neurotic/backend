@@ -1,0 +1,56 @@
+uuid: 6fa4c838-00e9-42f9-8a39-8d5f6ec253f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.certification.body
+    - field.field.node.certification.field_number_of_questions
+    - field.field.node.certification.field_quiz
+    - field.field.node.certification.field_tecnology
+    - node.type.certification
+  module:
+    - text
+    - user
+id: node.certification.default
+targetEntityType: node
+bundle: certification
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_number_of_questions:
+    weight: 104
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_quiz:
+    weight: 103
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_tecnology:
+    weight: 102
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

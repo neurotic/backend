@@ -1,0 +1,28 @@
+uuid: 73832ea1-2029-470d-a3b2-3bf98574b6a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_quiz
+    - node.type.certification
+    - node.type.quiz
+id: node.certification.field_quiz
+field_name: field_quiz
+entity_type: node
+bundle: certification
+label: Quiz
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      quiz: quiz
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

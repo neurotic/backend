@@ -1,17 +1,17 @@
-uuid: bc25321f-9a76-4391-b23b-a6ae6df13a6e
+uuid: 5eeb9246-4699-4fba-b799-c934fba0cc14
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.quiz.body
-    - node.type.quiz
+    - field.field.node.certification.body
+    - node.type.certification
   module:
     - text
     - user
-id: node.quiz.teaser
+id: node.certification.teaser
 targetEntityType: node
-bundle: quiz
+bundle: certification
 mode: teaser
 content:
   body:
@@ -27,7 +27,4 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-hidden:
-  field_answers: true
-  field_correct: true
-  field_question: true
+hidden: {  }
