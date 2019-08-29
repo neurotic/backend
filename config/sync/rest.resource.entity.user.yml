@@ -1,0 +1,18 @@
+uuid: 12c242c5-b5eb-4d30-a252-70f889adf507
+langcode: en
+status: true
+dependencies:
+  module:
+    - basic_auth
+    - serialization
+    - user
+id: entity.user
+plugin_id: 'entity:user'
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - basic_auth

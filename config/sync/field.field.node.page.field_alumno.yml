@@ -1,0 +1,31 @@
+uuid: 963ed97e-53fe-4b4e-b4c5-b27b215f3e29
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_alumno
+    - node.type.page
+    - paragraphs.paragraphs_type.alumno
+  module:
+    - entity_reference_revisions
+id: node.page.field_alumno
+field_name: field_alumno
+entity_type: node
+bundle: page
+label: Alumno
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      alumno: alumno
+    target_bundles_drag_drop:
+      alumno:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

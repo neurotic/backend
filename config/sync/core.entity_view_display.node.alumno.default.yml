@@ -1,0 +1,28 @@
+uuid: 20e81aa6-fea5-4c61-98f3-e1b0f3397bc1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.alumno.field_dni
+    - node.type.alumno
+  module:
+    - user
+id: node.alumno.default
+targetEntityType: node
+bundle: alumno
+mode: default
+content:
+  field_dni:
+    weight: 102
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

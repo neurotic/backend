@@ -1,0 +1,9 @@
+uuid: 660d20e8-fce8-4087-88d3-1bc1746ad217
+langcode: en
+status: true
+dependencies: {  }
+id: alumno
+label: Alumno
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

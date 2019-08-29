@@ -1,0 +1,18 @@
+uuid: 25426ff3-83cf-4407-b402-9d5a8f06d1df
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.coche
+id: node.coche.title
+field_name: title
+entity_type: node
+bundle: coche
+label: Modelo
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

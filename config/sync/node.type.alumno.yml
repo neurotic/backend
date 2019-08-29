@@ -1,0 +1,18 @@
+uuid: 35f942a3-4f14-4ba4-bfd7-69bc435c8eb8
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Alumno
+type: alumno
+description: ''
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: true

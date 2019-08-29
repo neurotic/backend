@@ -9,9 +9,11 @@ label: 'Anonymous user'
 weight: 0
 is_admin: false
 permissions:
+  - 'access checkout'
   - 'access comments'
   - 'access content'
   - 'access site-wide contact form'
+  - 'edit any coche content'
   - 'execute graphql requests'
   - 'execute persisted graphql requests'
   - 'search content'

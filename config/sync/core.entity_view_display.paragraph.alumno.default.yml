@@ -1,0 +1,30 @@
+uuid: f69084a8-7092-4e2f-b221-496fd2ea5d5f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.alumno.field_dni
+    - field.field.paragraph.alumno.field_nombre
+    - paragraphs.paragraphs_type.alumno
+id: paragraph.alumno.default
+targetEntityType: paragraph
+bundle: alumno
+mode: default
+content:
+  field_dni:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_nombre:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

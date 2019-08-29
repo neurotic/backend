@@ -1,0 +1,20 @@
+uuid: 7c43f73c-34a9-4a74-8194-d62fbd2af1f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.coche
+  module:
+    - user
+id: node.coche.teaser
+targetEntityType: node
+bundle: coche
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

@@ -1,0 +1,18 @@
+uuid: d165358a-c4d4-4062-9bd3-fb2f5edbac98
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Coche
+type: coche
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

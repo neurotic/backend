@@ -1,0 +1,19 @@
+uuid: 5f88eaf3-7080-48df-9ffe-be6ebe848994
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fabricante
+    - node.type.coche
+id: node.coche.field_fabricante
+field_name: field_fabricante
+entity_type: node
+bundle: coche
+label: Fabricante
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

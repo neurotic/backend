@@ -1,0 +1,22 @@
+uuid: 18485ba5-3944-433f-bc77-32e666fb3883
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.alumno.field_dni
+    - node.type.alumno
+  module:
+    - user
+id: node.alumno.teaser
+targetEntityType: node
+bundle: alumno
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_dni: true
