@@ -19,7 +19,6 @@
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6.5",
         "drupal-composer/drupal-scaffold": "^2.5",
-        "drupal/commerce": "^2.13",
         "drupal/commerce_checkout_order_fields": "^1.0",
         "drupal/config_devel": "^1.2",
         "drupal/console": "^1.0.2",

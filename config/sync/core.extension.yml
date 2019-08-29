@@ -9,19 +9,6 @@ module:
   ckeditor: 0
   color: 0
   comment: 0
-  commerce: 0
-  commerce_cart: 0
-  commerce_checkout: 0
-  commerce_checkout_order_fields: 0
-  commerce_log: 0
-  commerce_order: 0
-  commerce_payment: 0
-  commerce_payment_example: 0
-  commerce_price: 0
-  commerce_product: 0
-  commerce_promotion: 0
-  commerce_store: 0
-  commerce_tax: 0
   config: 0
   config_devel: 0
   contact: 0

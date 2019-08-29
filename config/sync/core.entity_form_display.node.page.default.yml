@@ -5,10 +5,8 @@ dependencies:
   config:
     - field.field.node.page.body
     - field.field.node.page.field_alumno
-    - field.field.node.page.field_product
     - node.type.page
   module:
-    - inline_entity_form
     - paragraphs
     - path
     - text
@@ -45,22 +43,6 @@ content:
       form_display_mode: default
       default_paragraph_type: ''
     third_party_settings: {  }
-    region: content
-  field_product:
-    weight: 122
-    settings:
-      form_mode: default
-      label_singular: ''
-      label_plural: ''
-      allow_new: true
-      allow_existing: true
-      match_operator: CONTAINS
-      override_labels: false
-      collapsible: false
-      collapsed: false
-      allow_duplicate: false
-    third_party_settings: {  }
-    type: inline_entity_form_complex
     region: content
   path:
     type: path
