@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7a8fcefeb2bf531937fbe30b21e2356c",
+    "content-hash": "f97c938ff689c732953a266d8a3c6f1a",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2976,6 +2976,9 @@
                     "recurse": false,
                     "replace": false,
                     "merge-extra": false
+                },
+                "patches_applied": {
+                    "Error en json api con drupal commerce": "https://www.drupal.org/files/issues/2019-05-23/jsonapi_2996114.patch"
                 }
             },
             "autoload": {

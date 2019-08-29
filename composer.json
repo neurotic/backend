@@ -82,6 +82,12 @@
         "patchLevel": {
             "drupal/core": "-p2"
         },
+        "enable-patching": true,
+        "patches": {
+            "drupal/core": {
+                "Error en json api con drupal commerce": "https://www.drupal.org/files/issues/2019-05-23/jsonapi_2996114.patch"
+            } 
+        },
         "installer-paths": {
             "web/core": ["type:drupal-core"],
             "web/libraries/{$name}": ["type:drupal-library"],
